@@ -1,0 +1,20 @@
+.error-icon {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: calc(50% - 0.5em);
+}
+
+.error-icon::after {
+    content: "!";
+    color: red;
+}
+
+.form-group {
+    position: relative;
+}
+
+.modal-body {
+    text-align: center;
+    font-weight: bold;
+}
